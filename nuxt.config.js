@@ -41,7 +41,7 @@ export default {
     '@nuxtjs/axios'
   ],
   axios: {
-    baseURL: 'https://crudcrud.com/api/382fe94c30064a90a05b2120b8f63b02/users',
+    baseURL: 'https://crudcrud.com/api/28a3aab5940844188ee2b78d9edba754/users',
 
     proxyHeaders: false,
     credentials: false
