@@ -1,5 +1,18 @@
 # user-nuxt
+## PREVIEW
+![](https://media.giphy.com/media/jq5gr6MjcPo8cNbiGS/giphy.gif)
 
+## CRUDCRUD.COM SETUP
+1. First Go To https://crudcrud.com/
+2. Copy the token to nuxt.config.js
+```bash
+  axios: {
+    baseURL: 'https://crudcrud.com/api/28a3aab5940844188ee2b78d9edba754/users',
+
+    proxyHeaders: false,
+    credentials: false
+  },
+```
 ## Build Setup
 
 ```bash
